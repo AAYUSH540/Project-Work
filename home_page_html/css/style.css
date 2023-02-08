@@ -1,21 +1,69 @@
 /********** Home-page ************/
+body {
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+
+}
 
 #Home-page {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.department {
+    margin-top: 20px;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.faculty_of_technology {
+    margin: 0;
+}
+
+.msu-logo {
+    width: 100px;
+    padding: 3px 0;
+}
+
+.university {
+    font-weight: 100;
+    font-style: italic;
+    font-size: small;
+}
+
+.lms {
+    color: white;
+    margin: 2.5rem 0 0 6.6rem;
 }
 
 .navbar {
-    padding: 12px;
+    padding: 0;
+}
+
+.nav-title {
+    width:30%;
+}
+
+.nav-logo {
+    width: 8.9rem;
 }
 
 .offcanvas-title {
     color: white;
 }
 
+.offcanvas-body {
+    text-align: left;
+}
+
 .navbar,
 .offcanvas,
 .image-container {
-    background: linear-gradient(to right , #00093c , #2d0b00);
+    background: linear-gradient(to right, #00093c, #2d0b00);
 }
 
 /* Quote  */
@@ -35,7 +83,7 @@
     position: relative;
     font-size: 1.1rem;
     box-shadow: 2px;
-    background: linear-gradient(to right , #00093c , #2d0b00);
+    background: linear-gradient(to right, #00093c, #2d0b00);
     color: whitesmoke;
 }
 
@@ -48,21 +96,31 @@
     position: absolute;
     top: -25px;
     left: 50px;
+    color: white;
 }
 
 .centered {
+    padding-top: 30px;
+}
+
+#carouselExample {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 30px;
+    width: 40%;
+}
+
+.button-centered {
+    position: absolute;
+    transform: translate(-47%, -50%);
 }
 
 .browse-button {
     top: 73%;
-    background: linear-gradient(to right , #00093c , #2d0b00);
+    background: linear-gradient(to right, #00093c, #2d0b00);
     left: 49.5%;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Ubuntu', sans-serif;
     padding: 20px;
 }
@@ -85,9 +143,9 @@
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #2d0b00;
     background-image: -webkit-linear-gradient(top, #2d0b00, #00093c);
     background-image: -moz-linear-gradient(top, #2d0b00, #00093c);
@@ -95,13 +153,50 @@
     background-image: -o-linear-gradient(top, #2d0b00, #00093c);
     background-image: linear-gradient(to bottom, #2d0b00, #00093c);
     text-decoration: none;
-  }
+}
+
+/********* Middle ************/
+
+#middle {
+    text-align: center;
+    margin-top: 9rem;
+
+}
+
+.card {
+    height: 30rem;
+    margin-left: 4rem;
+    background-color: #ECF9FF;
+    border: 0;
+}
+
+.card-image {
+    height: 15rem;
+}
+
+.list-group h6 {
+    display: inline-block;
+}
+
+.card-title {
+    padding: 20px;
+}
+
+.rules {
+    text-align: left;
+    margin-left: 1rem;
+
+}
+
+.list-group-item {
+    background-color: #ECF9FF;
+}
 
 /******** Footer ************/
 
 #footer {
     width: 100%;
-    background: linear-gradient(to right , #00093c , #2d0b00);
+    background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
     padding: 100px 0 10px;
     border-top-left-radius: 125px;
@@ -128,7 +223,7 @@
 
 .logo {
     width: 140px;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 .title {
@@ -136,7 +231,8 @@
     position: relative;
 }
 
-.details , .details a {
+.details,
+.details a {
     width: fit-content;
     margin: 20px 0;
     text-decoration: none;
@@ -155,7 +251,7 @@
 
 
 .link-ul {
-    padding: 0; 
+    padding: 0;
 }
 
 .link-list {
